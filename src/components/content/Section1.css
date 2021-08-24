@@ -1,0 +1,90 @@
+.section-1 {
+    background-image: radial-gradient(
+            circle at 22% 15%,
+            rgba(45, 45, 45, 0.05) 0%,
+            rgba(45, 45, 45, 0.05) 50%,
+            rgba(95, 95, 95, 0.05) 50%,
+            rgba(95, 95, 95, 0.05) 100%
+        ),
+        radial-gradient(
+            circle at 83% 16%,
+            rgba(122, 122, 122, 0.05) 0%,
+            rgba(122, 122, 122, 0.05) 50%,
+            rgba(194, 194, 194, 0.05) 50%,
+            rgba(194, 194, 194, 0.05) 100%
+        ),
+        radial-gradient(
+            circle at 74% 7%,
+            rgba(82, 82, 82, 0.05) 0%,
+            rgba(82, 82, 82, 0.05) 50%,
+            rgba(230, 230, 230, 0.05) 50%,
+            rgba(230, 230, 230, 0.05) 100%
+        ),
+        linear-gradient(90deg, rgb(243, 136, 126), rgb(250, 128, 114));
+    height: 70vh;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    color: whitesmoke;
+}
+.iphone-container {
+    position: relative;
+    overflow: hidden;
+}
+.btn-white {
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 30%;
+}
+.iphone-bg {
+    background: linear-gradient(
+            0deg,
+            rgba(247, 208, 203, 0) 0%,
+            rgba(250, 128, 114, 0.425) 0%,
+            rgba(250, 129, 116, 0) 50%,
+            rgba(250, 137, 124, 0) 90%,
+            rgba(250, 137, 124, 0) 100%
+        ),
+        url(./bg-iphone.jpg) no-repeat top center;
+    background-size: cover !important;
+    position: absolute;
+    bottom: -15%;
+    width: 70%;
+    right: 20%;
+    height: 100%;
+    border-radius: 4rem 4rem 0 0;
+}
+.iphone {
+    background-image: url(./iphoneframe.png);
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.frame-div {
+    position: absolute;
+    top: 45%;
+    left: 6.5%;
+    background-color: rgb(17, 16, 16);
+    width: 63%;
+    height: 30%;
+}
+.frame-div h1 {
+    color:white;
+    position: absolute;
+    top: -15%;
+    left: 22%;
+    font-size: 6rem;
+}
+.frame-btn {
+    position: absolute;
+    top: 60.6%;
+    left: 69.5%;
+    width: 2;
+}
+.btn-white-squad {
+    background: rgb(255, 255, 255);
+    color: grey;
+    padding: 2rem;
+    border: 0;
+}
