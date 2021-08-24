@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './Section1.css'
+import './Section-1.css'
 // import iphone from './iphoneframe.png';
 //fontawesome
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
