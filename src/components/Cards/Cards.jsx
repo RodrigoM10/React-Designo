@@ -1,16 +1,20 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
-import './Cards.css'
-import img1 from './img1.jpg'
+import { CardRB } from './Card'
 
-export const CardRB = () => {
+export const Cards = ({cards}) => {
+    const mapCards = cards.map((cardRB) => <CardRB key={cardRB.id} cardRB={cardRB} /> );
+    console.log("🚀 ~ file: Cards.jsx ~ line 6 ~ Cards ~ mapCards", mapCards)
+    // console.log("🚀 ~ file: Cards.jsx ~ line 8 ~ Cards ~ card1", card1)
     return (
-        <Card className="card-content bg-dark text-white">
-            <Card.Img className="card-img" src={img1} alt="Card image" />
-            <Card.ImgOverlay className="d-flex flex-column aling-items-center justify-content-center align-items-center">
-                <Card.Title><h1>Card title</h1></Card.Title>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
-        </Card>
+        <div className="row row-cols-2">
+            <div>
+                {mapCards[0]}
+            </div>
+            <div className="d-flex flex-column justify-content-between">
+                {mapCards[1]}
+                {mapCards[2]}
+            </div>
+        </div>
     )
 }
+
