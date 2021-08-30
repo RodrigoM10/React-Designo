@@ -1,0 +1,13 @@
+.footer{
+}
+.contact-position {
+position: absolute;
+bottom: -15%;
+width: 98%;
+}
+.footer-white {
+    height: 40vh;
+}
+.footer-black {
+    padding-top: 5rem;
+}
